@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+/* Header */
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+    padding: 0.5% 10%;
+}
+#icon {
+    height: 4vh;
+    border-radius: 50%;
+}
+#logo {
+    height: 2.2vh;
+    padding: 0% 2% 0% 0%;
+}
+header select{
+    margin: 0% 1%;
+    border: none;
+    background-color: black;
+    font-size: 1.2em;
+}
+/* Header End*/
+/* Main */
+    /* Banner */
+.Banner {
+    background: url(img/MLP_ROW_Muti-title_Mag1._CB1564087979_.jpg) no-repeat;
+    background-size: cover ;
+    background-position: center;
+    height: 70vh;
+}
+.BannerText {
+    /* border: 2px solid white; */
+    width: 50%;
+    font-size: 1.2em;
+    padding: 2% 3%;
+}
+.ButtonLogin {
+    width: 35%;
+    padding: 2%;
+}
+.ButtonLogin a {
+    display: inline-block;
+    background-color: #0093c3;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.8em;
+    width: 100%;
+    padding: 5% 0%;
+}
+hr {
+    margin: 5% 0%;
+}
+.BannerText h1 {
+    font-weight: 100;
+    font-size: 2em;
+}
+.p2 {
+    padding: 2% 0%;
+}
+    /* Banner End */
+/* Main End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Additional Code */
+.Features {
+    padding: 1% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: wrap;
+}
+.FeatureDetail h2, .FeatureDetail p {
+    color: black;
+    text-align: center;
+}
+.FeatureDetail {
+    padding: 2%;
+    /* width: 30%; */
+    /* border: 2px solid black; */
+    margin: 1%;
+}
+.FeatureDetail:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+.FeatureDetail img {
+    /* width: 75%; */
+    height: 50%;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1%;
+}
+footer a {
+    color: #0093c3;
+    padding: 1% 1%;
+    display: inline-block;
+}
+/* Additional End */
